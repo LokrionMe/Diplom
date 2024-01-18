@@ -37,14 +37,6 @@ class ListFigures:
     def __len__(self):
         return len(self.list)
 
-    def __str__(self) -> str:
-        ret_str = ''
-        k = 1
-        for i in self.get_list_figures():
-            ret_str += str(k) + ". " + str(i) + "\n"
-            k += 1
-        return ret_str
-
 
 def all_area_figures(list_figures: ListFigures):
     result = 0
