@@ -4,13 +4,13 @@ def show_bd():
 
 class Figure:
 
-    def calculate_area(self):
-        return self.length * self.width / 1000000
-
     def __init__(self, length, width) -> None:
         self.length = int(length)
         self.width = int(width)
         self.area = self.calculate_area()
+
+    def calculate_area(self):
+        return self.length * self.width / 1000000
 
     def get_area(self):
         return self.area
