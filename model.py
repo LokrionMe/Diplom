@@ -1,7 +1,3 @@
-def show_bd():
-    pass
-
-
 class Figure:
 
     def __init__(self, length, width) -> None:
